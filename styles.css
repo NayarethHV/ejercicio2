@@ -187,7 +187,7 @@ body {
     display: inline-block;
     margin-left: 70px;
     margin-top: 80px;
-    margin-left: 100px;
+    margin-left: 65px;
 }
 
 .Nayareth {
@@ -410,4 +410,29 @@ body {
 
 .footer-fila2 {
     margin: 10px;
+}
+.contenedor-inicio {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+    max-width: 84%; /* Ajustar la imagen al ancho del contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
+}
+
+.scroll1 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+
 }
