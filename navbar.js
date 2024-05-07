@@ -12,7 +12,7 @@ function cargarNavbar() {
           .split(".")[0];
   
         // Remover la clase active de todos los enlaces
-        document.querySelectorAll(".navbar ul li a").forEach((enlace) => {
+        document.querySelectorAll(".nav-links li a").forEach((enlace) => {
           enlace.classList.remove("active");
         });
   
