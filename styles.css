@@ -3,6 +3,20 @@ body {
     font-family: "Roboto"; 
     font-size: 32px;
     font-style: normal;
+    margin: 0px;
+
+}
+
+.navbar {
+    background-color: #151515;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 45px; 
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;       
 }
 
 .navbar-title {
@@ -14,16 +28,6 @@ body {
 
 }
 
-.navbar {
-    background-color: #151515;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    padding-left: 45px; 
-    position: relative;
-       
-}
-
 .nav-links {
     list-style-type: none;
     display: flex;
@@ -33,23 +37,23 @@ body {
     position: absolute;
     padding-left: 690px;
     width: 1720px;
+}
 
-  }
   
-  .nav-links li {
+.nav-links li {
     margin-right: 0px;
     margin-left: 30px;
     align-items: center;
     display: flex;
 
-  }
+}
   
-  .nav-links li:last-child {
+.nav-links li:last-child {
     margin-right: 0px;
 
-  }
+}
   
-  .nav-links li a {
+.nav-links li a {
     color: #fff;
     text-decoration: none;
     font-family: "Roboto Mono", monospace;
@@ -57,19 +61,32 @@ body {
     display: flex;
     align-items: flex-start;
 
-  }
+}
 
-  .titulo-perfil {
+.contenedor1 {
+    width: 700px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.titulo-perfil {
     font-family: "Gilda Display", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
-    display: flex;
     padding-left: 25px;
     width: 500px;
-    padding-top: 200px;
-
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
 }
+
 .descripcion-perfil {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -85,7 +102,6 @@ body {
     position: absolute;
     left: 49%;
     top: 320px;
-
     display: flex;
     width: 5px;
     height: 389px;
@@ -105,15 +121,12 @@ body {
     text-decoration-line: underline;
 }
 
-.contenedor1 {
-    width: 700px;
-    display: inline-block;
-    }
-
 .contenedor2 {
-    width: 700px;
+    width: 600px;
     display: inline-block;
-    
+    margin-left: 70px;
+    margin-top: 80px;
+    margin-left: 30px;
 }
 
 .Nayareth {
@@ -275,6 +288,7 @@ body {
 .contenedor-patrimonio {
     width: 550px;
     display: inline-block;
+    
 }
 
 .año-practica {
@@ -283,6 +297,7 @@ body {
     font-style: normal;
     font-size: 18px;
     display: inline;
+    column-gap: 20px;
    
 }
 
@@ -292,6 +307,12 @@ body {
     font-style: normal;
     font-size: 18px; 
     display: inline;
-    padding-inline-start: 69px;
+    padding-left: 69px;
+
+    
+    word-break: keep-all;
+    box-sizing: border-box;
+    border: 2px dotted blue;
+
 
 }
