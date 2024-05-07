@@ -434,5 +434,32 @@ img {
     font-style: normal;
     font-weight: 200;
     line-height: normal;
+}
 
+.contenedor-proyectos {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proyectos {
+    margin-bottom: 0px;
+}
+
+.xd {
+    margin: 0px;
+}
+
+.xdd {
+    margin: 0px;
+
+}
+
+.xddd {
+    margin: 0px;
+    margin-top: 0px;
 }
