@@ -8,62 +8,6 @@ body {
     color: #fff;
 }
 
-.navbar {
-    background-color: #151515;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    padding-left: 45px; 
-    margin: 0px;
-    position: fixed;
-    top: 0;
-    width: 100%;       
-}
-
-.navbar-title {
-
-    font-size: 20px;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 1px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.nav-links {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    position: absolute;
-    padding-left: 690px;
-    width: 1720px;
-}
-
-  
-.nav-links li {
-    margin-right: 0px;
-    margin-left: 30px;
-    align-items: center;
-    display: flex;
-
-}
-  
-.nav-links li:last-child {
-    margin-right: 0px;
-
-}
-  
-.nav-links li a {
-    color: #fff;
-    text-decoration: none;
-    font-family: "Roboto Mono", monospace;
-    font-size: 16px;
-    display: flex;
-    align-items: flex-start;
-
-}
 
 .contenedor1 {
     width: 700px;
