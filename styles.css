@@ -4,10 +4,10 @@ body {
     font-size: 32px;
     font-style: normal;
     margin: 0px;
-    background-color: #151515;
+    background-color: #0D0029;
     color: #fff;
 }
-
+/* 151515 fondo y navbar en escala de grises */
 
 .contenedor1 {
     width: 700px;
@@ -428,12 +428,35 @@ img {
     height: auto; /* Mantener la proporción de aspecto */
 }
 
+.contenedor-scroll {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.flecha {
+    width: 19px;
+    height: 14px;
+    flex-shrink: 0;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+
 .scroll1 {
     font-family: "Roboto";
     font-size: 20px;
     font-style: normal;
     font-weight: 200;
     line-height: normal;
+    letter-spacing: 1px;
+    display: inline;
+    align-items: center;
+
+
 }
 
 .contenedor-proyectos {
