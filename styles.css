@@ -13,8 +13,236 @@ line-height: normal;
 text-transform: uppercase;
 }
 
-.container {
+.titulo-perfil {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    display: flex;
+    padding-left: 25px;
+    width: 630px;
+    padding-top: 200px;
 
-    color: black;
 }
 
+.descripcion-perfil {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    width: 660px;
+    padding-left: 25px;
+    
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 320px;
+    margin-bottom: 100px;
+   
+}
+
+.NOMBRE {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration-line: underline;
+}
+
+.contenedor1 {
+    width: 700px;
+    display: inline-block;
+    }
+
+.contenedor2 {
+    width: 700px;
+    display: inline-block;
+    
+}
+
+.Nayareth {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.correo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.EDUCACION {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: block;
+    text-decoration-line: underline;   
+}
+
+.contenedor-año1 {
+    width: 700px;
+    display: inline-block;
+}
+
+
+.año1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: inline;
+     
+}
+
+.UDP {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px; 
+    display: inline;
+    padding-inline-start: 68px;
+
+}
+
+.año2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: inline;  
+}
+
+.HKBU {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px; 
+    display: inline;
+    padding-inline-start: 69px;
+
+}
+
+.contenedror-año2 {
+    width: 700px;
+    display: inline-block;
+}
+
+.IDIOMAS {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration-line: underline;
+}
+
+.contenedor-español {
+    width: 700px;
+    display: inline-block;
+}
+
+.español {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: inline;
+}
+
+.nativo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px; 
+    display: inline;
+    padding-inline-start: 44px;
+}
+
+.contenedor-ingles {
+    width: 700px;
+    display: inline-block;
+}
+
+.ingles {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: inline; 
+}
+
+.ielts {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px; 
+    display: inline;
+    padding-inline-start: 62px;
+}
+
+.EXPERIENCIA {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration-line: underline;
+}
+
+.contenedor-teatro {
+    width: 700px;
+    display: inline-block;
+}
+
+.año-teatro {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: inline; 
+}
+
+.teatro {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px; 
+    display: inline;
+    padding-inline-start: 69px;
+}
+
+.contenedor-patrimonio {
+    width: 550px;
+    display: inline-block;
+}
+
+.año-practica {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: inline;
+}
+
+.contenedor-practica {
+    width: 550px;
+    display: flex;
+    
+}
+.practica {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px; 
+    display: inline;
+    
+}
