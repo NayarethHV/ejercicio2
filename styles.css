@@ -4,10 +4,10 @@ body {
     font-size: 32px;
     font-style: normal;
     margin: 0px;
-    background-color: #0D0029;
+    background-color: #151515;
     color: #fff;
 }
-/* 151515 fondo y navbar en escala de grises */
+/* 151515 fondo y navbar en escala de grises y 0D0029 para color */
 
 .contenedor1 {
     width: 700px;
