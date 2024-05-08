@@ -421,7 +421,7 @@ body {
     align-items: center;
 }
 
-img {
+.imagen1 {
     display: block;
     margin: 0 auto; /* Centrar la imagen horizontalmente */
     max-width: 84%; /* Ajustar la imagen al ancho del contenedor */
@@ -485,4 +485,79 @@ img {
 .xddd {
     margin: 0px;
     margin-top: 0px;
+}
+
+.contenedor-inicio2 {
+    width: 1000px;
+    display: inline-flex;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 500px;
+    
+}
+
+.imagen2 {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    width: 800px;
+    height: 716px;
+}
+
+.contenedor-inicio-parrafo {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 800px;
+    margin-bottom: 0px;
+
+}
+
+.inicio-parrafo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    padding-left: 0px;
+    line-height : 25px;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 500px;
+    margin-top: 400px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.segundaparte-parrafo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height : 25px;
+
+}
+
+.inicio-click {
+    display: inline-block;
+    align-items: center;
+    margin-top: 0px;
+    height: 40px;
+}
+
+.clicl-proyectos {
+    font-family: "Roboto Mono";
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+}
+
+.flecha2 {
+    width: 19px;
+    height: 14px;
+    flex-shrink: 0;
+    display: inline;
+    vertical-align: baseline;    
 }
