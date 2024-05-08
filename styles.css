@@ -22,9 +22,9 @@ body {
     font-family: "Gloock", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
+    font-size: 55px;
     padding-left: 25px;
-    width: 550px;
+    width: 530px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -62,7 +62,7 @@ body {
 .contenedor-soft-general {
     width: 600px;
     margin-left: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .contenedor-softwares1 {
@@ -74,7 +74,7 @@ body {
 
 .Photoshop {
     font-family: "Roboto Mono";
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     padding: 6px 21px;
     justify-content: center;
@@ -89,7 +89,7 @@ body {
 
 .Illustrator {
     font-family: "Roboto Mono";
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     padding: 6px 21px;
     justify-content: center;
@@ -104,7 +104,7 @@ body {
 
 .AfterEffects {
     font-family: "Roboto Mono";
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     padding: 6px 21px;
     justify-content: center;
@@ -119,7 +119,7 @@ body {
 
 .VisualStudioCode {
     font-family: "Roboto Mono";
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     padding: 6px 21px;
     justify-content: center;
@@ -137,12 +137,12 @@ body {
     display: flex;
     width: 500px;
     gap: 10px;
-
+    margin-top: 0px;
 }
 
 .TouchDesigner {
     font-family: "Roboto Mono";
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     padding: 6px 21px;
     justify-content: center;
@@ -157,7 +157,7 @@ body {
 
 .InDesign {
     font-family: "Roboto Mono";
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     padding: 6px 21px;
     justify-content: center;
@@ -172,7 +172,7 @@ body {
 
 .Figma {
     font-family: "Roboto Mono";
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     padding: 6px 21px;
     justify-content: center;
@@ -402,8 +402,8 @@ body {
     line-height: normal;
 
     display: flex;
-    padding-top: 70px;
-    padding-bottom: 10px;
+    padding-top: 80px;
+    padding-bottom: 20px;
     padding-left: 0px;
     padding-right: 0px;
     flex-direction: column;
@@ -551,6 +551,7 @@ body {
     align-items: center;
     margin-top: 0px;
     height: 40px;
+    height: auto;
 }
 
 .clicl-proyectos {
@@ -561,10 +562,18 @@ body {
     display: inline;
 }
 
+.flecha22 {
+    margin-top: 5px;
+    display: inline;
+    padding-top: 30px;
+}
+
 .flecha2 {
     width: 19px;
     height: 14px;
     flex-shrink: 0;
     display: inline;
-    vertical-align: baseline;    
-}
+    vertical-align: baseline;  
+}  /* no baja, DUDA */ 
+
+
