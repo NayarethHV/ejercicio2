@@ -13,29 +13,30 @@ body {
     width: 700px;
     display: inline-block;
     margin-left: 40px;
-    margin-top: 0px;
+    margin-top: 300px;
     margin-bottom: 0px;
     
 }
 
 .titulo-perfil {
-    font-family: "Gilda Display", serif;
+    font-family: "Gloock", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
     padding-left: 25px;
-    width: 500px;
+    width: 550px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    
+    letter-spacing: 3px;
 }
+
 
 .descripcion-perfil {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
     font-size: 16px;
     width: 600px;
@@ -44,13 +45,13 @@ body {
 }
 
 .vl {
-    border-left: 1px solid #151515;
+    border-left: 0.5px solid #fff;
     position: absolute;
     left: 53%;
-    top: 200px;
-    display: flex;
+    top: 300px;
+    display: inline-flex;
     width: 5px;
-    height: 389px;
+    height: 309px;
     padding-bottom: 0px;
     flex-direction: column;
     justify-content: center;
@@ -82,6 +83,8 @@ body {
     border-radius: 35px;
     border: 1px solid;
     display: inline;
+    font-weight: 300;
+
 }
 
 .Illustrator {
@@ -95,6 +98,8 @@ body {
     border-radius: 35px;
     border: 1px solid;
     display: inline;
+    font-weight: 300;
+
 }
 
 .AfterEffects {
@@ -108,6 +113,8 @@ body {
     border-radius: 35px;
     border: 1px solid;
     display: inline;
+    font-weight: 300;
+
 }
 
 .VisualStudioCode {
@@ -121,6 +128,8 @@ body {
     border-radius: 35px;
     border: 1px solid;
     display: inline;
+    font-weight: 300;
+
 }
 
 .contenedor-softwares2 {
@@ -142,6 +151,8 @@ body {
     border-radius: 35px;
     border: 1px solid;
     display: inline;
+    font-weight: 300;
+
 }
 
 .InDesign {
@@ -155,6 +166,8 @@ body {
     border-radius: 35px;
     border: 1px solid;
     display: inline;
+    font-weight: 300;
+
 }
 
 .Figma {
@@ -168,13 +181,15 @@ body {
     border-radius: 35px;
     border: 1px solid;
     display: inline;
+    font-weight: 300;
+
 }
 
 .NOMBRE {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
     text-decoration-line: underline;
     text-underline-offset: 5px;
@@ -192,40 +207,45 @@ body {
 
 .Nayareth {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
     font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .correo {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
     font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .EDUCACION {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    font-size: 18px;
+    font-size: 16px;
     display: block;
     text-decoration-line: underline;  
     text-underline-offset: 5px;
     margin-bottom: 0px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .contenedor-año1 {
-    width: 500px;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    height: 10px;
 }
 
 
 .año1 {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 16px;
     display: inline;
@@ -233,17 +253,25 @@ body {
 
 .UDP {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
     font-size: 16px; 
     display: inline;
-    padding-inline-start: 68px;
+    padding-inline-start: 67px;
 
+}
+
+.contenedror-año2 {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    height: 10px;
+    padding: 0px;
 }
 
 .año2 {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 16px;
     display: inline;  
@@ -251,84 +279,47 @@ body {
 
 .HKBU {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
     font-size: 16px; 
     display: inline;
-    padding-inline-start: 69px;
+    padding-inline-start: 67px;
 
 }
 
-.contenedror-año2 {
+.contenedor-año3 {
     width: 500px;
     display: inline-block;
-}
-
-.IDIOMAS {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
     display: inline-block;
-    text-decoration-line: underline;
-    text-underline-offset: 5px;
-    margin-bottom: 0px;
-    margin-top: 30px;
-
+    align-items: baseline;
+    display: flex;
+    
 }
 
-.contenedor-español {
-    width: 500px;
-    display: inline-block;
-    margin-top: 10px;
-
-}
-
-.español {
+.año3 {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 16px;
-    display: inline;
 }
 
-.nativo {
+.excelia {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
     font-size: 16px; 
-    display: inline;
-    padding-inline-start: 44px;
+    box-sizing: border-box;
+    padding-left: 76px;
+    width: 380px;
+    line-height : 26px;
 }
 
-.contenedor-ingles {
-    width: 500px;
-    display: inline-block;
-}
-
-.ingles {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    display: inline; 
-}
-
-.ielts {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 16px; 
-    display: inline;
-    padding-inline-start: 60px;
-
-}
 
 .EXPERIENCIA {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
     text-decoration-line: underline;
     text-underline-offset: 5px;
@@ -345,7 +336,7 @@ body {
 
 .año-teatro {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 16px;
     display: inline; 
@@ -353,7 +344,7 @@ body {
 
 .teatro {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
     font-size: 16px; 
     display: inline;
@@ -371,7 +362,7 @@ body {
 
 .año-practica {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 16px;
     margin-right: 7px;
@@ -379,7 +370,7 @@ body {
 
 .practica {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
     font-size: 16px; 
     box-sizing: border-box;
@@ -503,6 +494,7 @@ body {
     margin-bottom: 0px;
     width: 800px;
     height: 716px;
+    margin-top: 100px;
 }
 
 .contenedor-inicio-parrafo {
@@ -512,7 +504,7 @@ body {
     margin-bottom: 0px;
     height: 800px;
     margin-bottom: 0px;
-
+    margin-top: 100px;
 }
 
 .inicio-parrafo {
