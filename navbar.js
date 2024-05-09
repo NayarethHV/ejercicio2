@@ -24,4 +24,3 @@ function cargarNavbar() {
   // Llamar a la función para cargar el navbar cuando el DOM esté listo
   document.addEventListener("DOMContentLoaded", cargarNavbar);
   
-
