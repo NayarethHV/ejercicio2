@@ -4,8 +4,9 @@ body {
     font-size: 32px;
     font-style: normal;
     margin: 0px;
-    background-color: #151515;
+    background-color: #0D0029;
     color: #fff;
+    z-index: 3;
 }
 /* 151515 fondo y navbar en escala de grises y 0D0029 para color */
 
@@ -15,7 +16,8 @@ body {
     margin-left: 40px;
     padding-top: 300px;
     margin-bottom: 0px;
-    
+    z-index: 3;
+
 }
 
 .titulo-perfil {
@@ -428,10 +430,12 @@ body {
 }
 
 .imagen1 {
-    display: block;
+    display: inline-block;
     margin: 0 auto; /* Centrar la imagen horizontalmente */
     max-width: 84%; /* Ajustar la imagen al ancho del contenedor */
-    height: auto; /* Mantener la proporción de aspecto */
+    height: 716px; 
+    z-index: 3;
+
 }
 
 .contenedor-scroll {
@@ -439,6 +443,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+    z-index: 3;
+
 }
 
 .flecha {
