@@ -7,5 +7,7 @@ document.body.onpointermove = event => {
 
     blob.style.left = `${clientX}px` ;
     blob.style.top = `${clientY}px`;
+
+    
 }
 
