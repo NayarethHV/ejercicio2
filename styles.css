@@ -1,9 +1,5 @@
 
 body {
-
-    font-family: "Roboto"; 
-    font-size: 32px;
-    font-style: normal;
     margin: 0px;
     background-color: #0D0029;
     color: #fff;
@@ -254,7 +250,7 @@ body {
     align-items: baseline;
     display: flex;
     margin-top: 6px;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
     height: 30px;
 }
 
@@ -281,9 +277,10 @@ body {
     display: inline-block;
     align-items: baseline;
     display: flex;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    height: 30px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 40px;
+    padding-top: 30px;
     
 }
 
@@ -304,7 +301,9 @@ body {
     font-style: normal;
     font-size: 16px; 
     display: inline;
-    padding-inline-start: 67px;
+    padding-inline-start: 72px;
+    margin-top: 10px;
+
 
 }
 
@@ -335,7 +334,6 @@ body {
     font-size: 16px; 
     box-sizing: border-box;
     padding-left: 76px;
-    width: 380px;
     line-height : 26px;
     margin: 0px;
 }
@@ -531,18 +529,12 @@ body {
 
 .contenedor-inicio-parrafo {
     display: inline-block;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
     height: 800px;
-    margin-bottom: 0px;
     margin-top: 100px;
+
 }
 
 .inicio-parrafo {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
     font-size: 16px;
     padding-left: 0px;
     line-height : 25px;
@@ -551,10 +543,10 @@ body {
     margin-top: 400px;
     margin-left: 0px;
     margin-bottom: 0px;
+    font-weight: 300;
 }
 
 .segundaparte-parrafo {
-    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
