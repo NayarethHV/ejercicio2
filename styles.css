@@ -411,12 +411,13 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 700px;
 
     display: flex;
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 347px;
+    padding-right: 347px;
     flex-direction: column;
     align-items: center;
 }
@@ -453,7 +454,6 @@ body {
     align-items: center;
     margin-top: 0px;
     z-index: 3;
-
 }
 
 .flecha {
@@ -476,7 +476,7 @@ body {
     letter-spacing: 1px;
     display: inline;
     align-items: center;
-
+    
 
 }
 
@@ -488,6 +488,7 @@ body {
     padding-right: 0px;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .proyectos {
@@ -560,6 +561,8 @@ body {
     margin-top: 0px;
     height: 40px;
     height: auto;
+    border: 1px solid;
+    padding: 5px;
 }
 
 .clicl-proyectos {
