@@ -12,8 +12,8 @@ body {
 /* 151515 fondo y navbar en escala de grises y 0D0029 para color */
 
 ::selection{
-    background-color: #fff;
-    color: #3600AA;
+    background-color: #3600AA;
+    color: #fff;
     opacity: 30%;
 }
 
@@ -301,7 +301,7 @@ body {
     font-style: normal;
     font-size: 16px; 
     display: inline;
-    padding-inline-start: 72px;
+    padding-inline-start: 71px;
     margin-top: 10px;
 
 
@@ -333,7 +333,7 @@ body {
     font-style: normal;
     font-size: 16px; 
     box-sizing: border-box;
-    padding-left: 76px;
+    padding-left: 75px;
     line-height : 26px;
     margin: 0px;
 }
@@ -509,6 +509,15 @@ body {
     margin-top: 0px;
 }
 
+.imagen2 {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    width: 800px;
+    height: 716px;
+    margin-top: 100px;
+}
+
 .contenedor-inicio2 {
     width: 1000px;
     display: inline-flex;
@@ -517,15 +526,6 @@ body {
     margin-bottom: 0px;
     height: 500px;
     
-}
-
-.imagen2 {
-    display: inline-block;
-    margin-left: 40px;
-    margin-bottom: 0px;
-    width: 800px;
-    height: 716px;
-    margin-top: 100px;
 }
 
 .contenedor-inicio-parrafo {
@@ -541,7 +541,7 @@ body {
     line-height : 25px;
     display: inline-block;
     width: 500px;
-    margin-top: 400px;
+    margin-top: 350px;
     margin-left: 0px;
     margin-bottom: 0px;
     font-weight: 300;
@@ -563,6 +563,8 @@ body {
     height: auto;
     border: 1px solid;
     padding: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
 .clicl-proyectos {
@@ -571,6 +573,7 @@ body {
     justify-content: center;
     align-items: center;
     display: inline;
+
 }
 
 .flecha22 {
@@ -587,4 +590,51 @@ body {
     vertical-align: baseline;  
 }  /* no baja, DUDA */ 
 
+/*contacto*/
 
+.contenedor-texto-contacto {
+    width: 500px;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 290px;
+    margin-left: 65px;
+    vertical-align: top;
+}
+
+.imagen3 {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    width: 800px;
+    height: 716px;
+    margin-top: 100px;
+}
+
+.contenedor-contacto {
+
+}
+
+.contenedor-texto-contacto {
+
+}
+
+.titulo-contacto {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80px;
+    width: 700px;
+}
+
+.email-contacto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
